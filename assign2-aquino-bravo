@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Management Form</title>
+<style>
+  body {
+    font-family: Serif, sans-serif;
+  }
+  h1 {
+    margin-top: 0;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  form {
+    margin-top: 20px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+</style>
+</head>
+<body>
+  <h1>Student Management Form</h1>
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>Student Number</th>
+      <th>Name</th>
+      <th>Address</th>
+      <th>Phone Number</th>
+      <th>Year of Entry</th>
+      <th>Units Enrolled</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1111</td>
+      <td>Sam Sung</td>
+      <td>Manila City</td>
+      <td>123123123</td>
+      <td>2017</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>1112</td>
+      <td>Ay Fone</td>
+      <td>Quezon City</td>
+      <td>321321321</td>
+      <td>2017</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>1113</td>
+      <td>Master Chief</td>
+      <td>Pasay City</td>
+      <td>234234234</td>
+      <td>2017</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>1114</td>
+      <td>Chadwick Earl</td>
+      <td>Beijing</td>
+      <td>432432432</td>
+      <td>2017</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>1115</td>
+      <td>Garth Vader</td>
+      <td>Quezon City</td>
+      <td>345345345</td>
+      <td>2017</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>1116</td>
+      <td>Luke Skybringer</td>
+      <td>123 Mars St</td>
+      <td>543543543543</td>
+      <td>2017</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>1117</td>
+      <td>Rey Downey</td>
+      <td>123 Mars St</td>
+      <td>456456456</td>
+      <td>2017</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>1118</td>
+      <td>Scarlett James</td>
+      <td>123 Mars St</td>
+      <td>654654654</td>
+      <td>2017</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>1119</td>
+      <td>Kobe Curry</td>
+      <td>123 Mars St</td>
+      <td>567567567</td>
+      <td>2017</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>11110</td>
+      <td>Rafael Turner</td>
+      <td>123 Mars St</td>
+      <td>765765765</td>
+      <td>2017</td>
+      <td>5</td>
+    </tr>
+    
+    
+    
+  </table>
+  <form>
+    <label for="id">ID</label>
+    <input type="text" id="id" name="id">
+    <label for="studentNumber">Student Number</label>
+    <input type="text" id="studentNumber" name="studentNumber">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name">
+    <label for="address">Address</label>
+    <input type="text" id="address" name="address">
+    <label for="phoneNumber">Phone Number</label>
+    <input type="text" id="phoneNumber" name="phoneNumber">
+    <label for="yearOfEntry">Year of Entry</label>
+    <input type="text" id="yearOfEntry" name="yearOfEntry">
+    <label for="unitsEnrolled">Units Enrolled</label>
+    <input type="text" id="unitsEnrolled" name="unitsEnrolled">
+    <button type="button" id="saveButton">Save</button>
+    <button type="button" id="clearButton">Clear</button>
+  </form>
+</body>
+</html>
