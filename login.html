@@ -5,6 +5,13 @@ follow
 To Do: Implement submit and cancel functionality
 -->
 
+<!--
+Author: Luigi Christopher F. Aquino
+Comment: Javascript implementation will be prioritized. CSS to 
+follow
+To Do: Implement submit and cancel functionality
+-->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,27 +21,26 @@ To Do: Implement submit and cancel functionality
 
 <h2>Login Form</h2>
 
-
-    
 <form>
-    <label for="username">Username:</label>
+    <label for="txtUsername">Username:</label>
     <input type="text" id="txtUsername" name="username" required><br><br>
 
-    <label for="password">Password:</label>
+    <label for="txtPassword">Password:</label>
     <input type="password" id="txtPassword" name="password" required><br><br>
 
-    <button type="submit" onClick="onLoginBtnClick()">Login</button>
-    <button type="button" onClick="onClearBtnClick()">Clear</button>
+    <button type="button" onclick="onLoginBtnClick()">Login</button>
+    <button type="button" onclick="onClearBtnClick()">Clear</button>
 </form>
 
 <script>
- function onLoginBtnClick(){
- alert(document.getElementById("username").value);
- }
- function onClearBtnClick(){
- document.getElementById("username").value = "";
- }
- </script>
+function onLoginBtnClick() {
+    alert(document.getElementById("txtUsername").value);
+}
+
+function onClearBtnClick() {
+    document.getElementById("txtUsername").value = "";
+}
+</script>
 
 </body>
 </html>
